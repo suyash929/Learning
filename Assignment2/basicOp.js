@@ -1,5 +1,22 @@
 function basicOp(operation, value1, value2)
 {
-  // Code
-  return operation === '+' ? value1 + value2 : operation === '-' ? value1-value2 : operation === '*' ? value1*value2 : operation === '/' ? value1/value2 : 0
+
+  switch(operation){
+
+  	case '+':
+  				return value1 + value2
+
+	case '-':
+				return value1 - value2
+
+	case '*':
+				return value1 * value2
+
+	case '/':
+				return value1 / value2
+
+	default:
+				return 'No operation match'
+
+  }
 }

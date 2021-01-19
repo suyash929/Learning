@@ -1,4 +1,5 @@
-function printArray(array){
-  //show me the code!
-  return array.join(",")
+function printArray(stringArray){
+
+  return stringArray.join(",")
+
 }
