@@ -25,11 +25,11 @@ header{
 
 .contentDiv{
     width: 100%;
-    max-width: 200px;
+    max-width: 12rem;
     text-align: center;
     background-color: white;
     border-style: solid;
-    border-width: 2px;
+    border-width: 0.3rem;
     border-color: #ff4848;
     color:  #1B2354;
     margin: auto;
@@ -93,8 +93,8 @@ footer{
     background-color: #ff4848;
     color: w;
     color: white;
-    height: 30px;
-    width: 130px;
+    height: 2rem;
+    width: 8rem;
 }
 .subDivision{
     margin-top: 2%;
@@ -102,8 +102,19 @@ footer{
     margin-left: 2%;
 }
 @media only screen and (max-width: 375px){
+    .contentDiv{
+        max-width: 9rem;
+        border-width: 0.2rem;
+    }
+    .mainTitle{
+        font-size: 1.2rem;
+    }
+
+    .subTitle{
+        font-size: 0.7rem;
+    }
     .headContent{
-        font-size: 10px;
+        font-size: 0.8rem;
     }
     .one{
         width:43%;
@@ -115,6 +126,6 @@ footer{
         width: 88%;
     }
     .subscribeButton{
-        font-size: 11px;
+        font-size: 0.7rem;
     }
 }   
