@@ -14,6 +14,8 @@ searchButton.addEventListener('click', (event) => {// Add click property to sear
   document.getElementById('mainContent').innerHTML = '';
   currentPage = 1;
   totalData = [];
+  if(searchInput.value == '' ||searchInput.value == undefined)
+    return alert("Please enter something in search bar");
   YouTubeSearchApi(searchInput.value);
 });
 function YouTubeSearchApi(queryData,nextPage = ''){ // calling YuTube api to get data according to search result
