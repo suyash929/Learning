@@ -1,0 +1,106 @@
+body{
+  font-family: Roboto, Arial, sans-serif;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left:0;
+  height: 4rem;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(35, 31, 32);
+}
+.headContent{
+  display: flex;
+  width:100%;
+  margin-left: 1%;
+}
+.icon{
+  float: left
+}
+.search-box{
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 100%;
+  display: block;
+  text-align: -webkit-center;
+  background-color: rgb(35, 31, 32);
+}
+.search-input{
+  width: 35%;
+  height: 2rem;
+  color: #000;
+  border: 1px solid #BEBEBE;
+}
+.search-button{
+  width:3rem;
+  height: 2.35rem;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgb(35, 31, 32);
+  box-shadow: 0 5px 10px rgba(0,0,0,.7);
+}
+.thumbnail-container{
+  display: flex;
+  flex-basis: auto;
+  margin-top: 10rem;
+}
+.thumbnail-box{
+  flex: auto;
+  margin-left: 2.2rem;
+  box-shadow: 0 5px 25px rgba(0,0,0,.7);
+  border-radius: 0.5rem;
+  border-color: #8483857a;
+  border-style: solid;
+  border-width: 0.1rem;
+  line-height: 1.2rem;
+  cursor: pointer;
+}
+.thumbnail-image{
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border-color: #8483857a;
+  border-style: solid;
+  border-width: 0.1rem;
+}.thumbnail-title{
+  padding-left: 1rem;
+  margin: 0rem;
+}
+.thumbnail-sub-title{
+  padding-left: 1rem;
+  margin: 0 0 1rem 0;
+  font-size: 0.85rem;
+  color: dimgrey;
+}
+.pagenumbers{
+  margin: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pagenumbers button{
+  width: 2rem;
+  height: 2rem;
+  appearance: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0.2rem;
+  text-shadow: 0px 0px 4px rgb(0 0 0 / 0.3);
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 0.3);
+  background-color: #231f20;
+  color: white;
+}
+.pagenumbers button:hover {
+	background-color: #44EEAA;
+}
