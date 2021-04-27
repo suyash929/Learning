@@ -1,0 +1,30 @@
+{
+  "name": "nodetask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hoemTask1.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node homeTask2/homeTask2.js --extensions \".ts\"",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.0",
+    "joi": "^17.4.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-typescript": "^7.13.0",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^2.0.7"
+  }
+}
